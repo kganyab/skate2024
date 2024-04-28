@@ -1,0 +1,108 @@
+<style>
+@charset "utf-8";
+
+
+/* New Styles Added Below */
+
+/* ==============================
+   Mobile styles: 0px to 480px
+   ==============================
+*/
+@media only screen and (max-width: 480px) {
+}
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================
+*/
+@media only screen and (min-width: 481px) { 
+}
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) { 
+}
+
+#nav {
+        background: gray;
+        color: white;
+        overflow: auto;
+        border-color: black;
+        border-style: outset;
+    }
+
+    #nav li {
+        float: left;
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        border-style: inset;
+        color: white;
+        border-color: black;
+        background-color: rgb(60, 60, 60);
+    }
+
+ 
+        
+        }p
+        {
+         font-weight: normal;
+         font-size: 20px;
+         color:black #ffffff;
+		 border-style: white;
+         color: black;
+         border-color:black;
+         background-color:white;
+		 text-align:center
+        }
+    
+	
+	
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.topnav a {
+  align:center;
+  color:black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:blue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color:blue;
+  color: white;
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000; /* Adjust the z-index based on your layout */
+}
+
+
+</style>

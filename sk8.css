@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+
+
+
+
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 100%; 
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.topnav a {
+  align:center;
+  color:black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:blue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color:blue;
+  color: white;
+}
+</style
+
+<style>
+    /* Basic styling for product cards */
+    .product {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+      width: 250px;
+      text-align: center;
+      display: inline-block;
+    }
+    .product img {
+      max-width: 70%;
+      height: auto;
+      margin-bottom: 30px;
+	  img-align:center;
+    }
+
+.price {
+  color: white;
+  font-size: 22px;
+}
+
+.product button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.product button:hover {
+  opacity: 0.7;
+}
+
+/* New Styles Added Below */
+
+/* ==============================
+   Mobile styles: 0px to 480px
+   ==============================
+*/
+@media only screen and (max-width: 480px) {
+}
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================
+*/
+@media only screen and (min-width: 481px) { 
+}
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) { 
+}
+
+  </style>
