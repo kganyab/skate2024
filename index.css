@@ -104,13 +104,8 @@ body {
   z-index: 1000; /* Adjust the z-index based on your layout */
 }
 
+section {
+      margin-top: 60px; /* Adjust this value to prevent content from being hidden behind the fixed nav */
+      padding: 20px;
 
-</style>
-
-<style>
-img {
- display:block;
- margin-left:auto;
- margin-right:auto;
- }
- <style/>
+<style/>
