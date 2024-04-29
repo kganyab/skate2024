@@ -54,6 +54,13 @@ body {
   background-color:blue;
   color: white;
 }
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000; /* Adjust the z-index based on your layout */
+}
 </style
 
 <style>
